@@ -12,6 +12,8 @@ let g:loaded_easylog = 1
 let s:log_map={
       \'javascript':['console.log("', '", ', ')'],
       \'typescript':['console.log("', '", ', ')'],
+      \'typescript.tsx':['console.log("', '", ', ')'],
+      \'javascript.jsx':['console.log("', '", ', ')'],
       \'go':['fmt.Println("', '", ', ')'],
       \'python':['print("', '", ', ')'],
       \'vim':['echo "', ': "',''],
